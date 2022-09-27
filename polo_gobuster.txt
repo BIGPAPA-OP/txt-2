@@ -1,0 +1,83 @@
+===============================================================
+Gobuster v3.1.0
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     https://poloniex.com
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Delay:                   1s
+[+] Wordlist:                /data/data/com.termux/files/home/SecLists-master/Discovery/Web-Content/common.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.1.0
+[+] Timeout:                 10s
+===============================================================
+2022/09/26 07:03:40 Starting gobuster in directory enumeration mode
+===============================================================
+/.bashrc              (Status: 403) [Size: 11414]
+/.bash_history        (Status: 403) [Size: 11414]
+/.git/HEAD            (Status: 403) [Size: 11414]
+/.git                 (Status: 403) [Size: 11414]
+/.cvs                 (Status: 403) [Size: 11414]
+/.git/config          (Status: 403) [Size: 11414]
+/.git/index           (Status: 403) [Size: 11414]
+/.git/logs/           (Status: 403) [Size: 11414]
+/.history             (Status: 403) [Size: 11414]
+/.htaccess            (Status: 403) [Size: 11414]
+/.htpasswd            (Status: 403) [Size: 11414]
+/.mysql_history       (Status: 403) [Size: 11414]
+/.passwd              (Status: 403) [Size: 11414]
+/.profile             (Status: 403) [Size: 11414]
+/.ssh                 (Status: 403) [Size: 11414]
+/.svn                 (Status: 403) [Size: 11414]
+/.svn/entries         (Status: 403) [Size: 11414]
+/.well-known/apple-app-site-association (Status: 200) [Size: 840]
+/.well-known/assetlinks.json (Status: 200) [Size: 789]           
+/access_log           (Status: 403) [Size: 11414]                
+/activity             (Status: 302) [Size: 0] [--> /login?r=/activity]
+/api                  (Status: 301) [Size: 0] [--> https://docs.poloniex.com]
+/app                  (Status: 200) [Size: 257]                              
+/assets               (Status: 200) [Size: 423467]                           
+/auth                 (Status: 403) [Size: 0]                                
+/authorized_keys      (Status: 403) [Size: 11414]                            
+/balances             (Status: 302) [Size: 0] [--> /wallet]                  
+/campaigns            (Status: 200) [Size: 424215]                           
+/cards                (Status: 301) [Size: 162] [--> https://poloniex.com/cards/]
+/careers              (Status: 301) [Size: 162] [--> https://poloniex.careers]   
+/chart                (Status: 200) [Size: 81668]                                
+/charts               (Status: 200) [Size: 81668]                                
+/communications       (Status: 301) [Size: 162] [--> https://poloniex.com/]      
+/confirm              (Status: 301) [Size: 162] [--> https://poloniex.com/confirm/]
+/contact              (Status: 301) [Size: 0] [--> https://www.circle.com/contact-us]
+/css                  (Status: 301) [Size: 162] [--> https://poloniex.com/css/]      
+/download             (Status: 301) [Size: 162] [--> https://poloniex.com/download/] 
+/error                (Status: 200) [Size: 4212]                                     
+/error_log            (Status: 403) [Size: 11414]                                    
+/exchange             (Status: 302) [Size: 138] [--> https://poloniex.com/spot]      
+/faq                  (Status: 301) [Size: 0] [--> /support]                         
+/id_rsa               (Status: 403) [Size: 11414]                                    
+/images               (Status: 301) [Size: 162] [--> https://poloniex.com/images/]   
+/includes             (Status: 301) [Size: 162] [--> https://poloniex.com/includes/] 
+/js                   (Status: 301) [Size: 162] [--> https://poloniex.com/js/]       
+/learning             (Status: 200) [Size: 277736]                                   
+/learn                (Status: 200) [Size: 277736]                                   
+/learners             (Status: 200) [Size: 277736]                                   
+/login                (Status: 301) [Size: 162] [--> https://login.poloniex.com/login]
+/logout               (Status: 301) [Size: 162] [--> https://login.poloniex.com/logout]
+/markets              (Status: 200) [Size: 277739]                                     
+/phpinfo.php          (Status: 403) [Size: 11414]                                      
+/ping                 (Status: 200) [Size: 15]                                         
+/privacy              (Status: 301) [Size: 162] [--> https://poloniex.com/privacy/]    
+/private              (Status: 200) [Size: 0]                                          
+/profile              (Status: 302) [Size: 0] [--> /login?r=/profile]                  
+/public               (Status: 200) [Size: 0]                                          
+/referral             (Status: 200) [Size: 423503]                                     
+/signup               (Status: 301) [Size: 162] [--> https://poloniex.com/signup/]     
+/spotlight            (Status: 200) [Size: 425878]                                     
+/support              (Status: 301) [Size: 162] [--> https://poloniex.com/support/]    
+/terms                (Status: 301) [Size: 162] [--> https://poloniex.com/terms/]      
+/token                (Status: 200) [Size: 58]                                         
+/upload               (Status: 200) [Size: 0]                                          
+/web.config           (Status: 403) [Size: 11414]                                      
+===============================================================
+2022/09/26 07:14:41 Finished
+===============================================================
